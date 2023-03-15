@@ -6,6 +6,7 @@ import vue2 from '@vitejs/plugin-vue2'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/CW3_Part2_individual_complete_4/",
   plugins: [
     vue2(),
     legacy({
