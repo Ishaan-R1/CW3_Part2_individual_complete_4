@@ -76,6 +76,7 @@ export default {
     oneInCart(subject) {
       return this.cart.includes(subject.id)
     },
+    // Emit event that triggers parent component to remove the lesson from cart
     manageRemoveLesson(subject) {
       this.$emit("manage-remove-lesson", subject);
     },
