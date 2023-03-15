@@ -3,13 +3,13 @@
     <h1>{{ sitename }}</h1>
     <button @click="showCheckout()" v-if="canViewCart" id="CartBtn">
       <!-- Displaying cart icon on button -->
-      <img src="Images/cart.png" alt="Cart" class="cart" />
+      <img src="/Images/cart.png" alt="Cart" class="cart" />
       {{ cartItemCount }}
       Checkout
     </button>
     <!-- Creating disabled button when no items are added to cart -->
     <button class="disabled" id="CartBtnDisabled" disabled='disabled' v-else>
-        <img src="Images/cart.png" alt="Cart" class="cart2">
+        <img src="/Images/cart.png" alt="Cart" class="cart2">
         Checkout
       </button>
     <button
@@ -51,6 +51,7 @@
   </div>
 </template>
 <script>
+// Import Lesson and Checkout as two child components
 import Lesson from "./components/Lesson.vue";
 import Checkout from "./components/Checkout.vue";
 
