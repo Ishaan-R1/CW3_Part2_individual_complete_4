@@ -99,6 +99,7 @@ export default {
     addToCart: function (product) {
       this.$emit("add-item-to-cart", product);
     },
+    // Emiting event to trigger sort functions
     sort: function (option) {
       this.$emit("sort-item", option);
     },
