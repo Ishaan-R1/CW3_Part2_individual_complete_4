@@ -96,6 +96,7 @@ export default {
       }
       console.log(sub.spaces);
     },
+    // Emiting event to trigger add to cart from App
     addToCart: function (product) {
       this.$emit("add-item-to-cart", product);
     },
