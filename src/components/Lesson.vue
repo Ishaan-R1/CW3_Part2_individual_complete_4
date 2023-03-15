@@ -9,6 +9,7 @@
             <label for="css">Descending</label><br>
         </form>
     </div>
+    <!-- Adding functionality for user to select Ascending or Decending order -->
     <form>
       <div class="container2">
         <div class="sort">
